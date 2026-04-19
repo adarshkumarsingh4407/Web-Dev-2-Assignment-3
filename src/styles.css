@@ -1,0 +1,126 @@
+/* base styles */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+/* app container */
+.app-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* add student form */
+.add-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.add-form input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.add-form button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #42a5f5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-form button:hover {
+    background-color: #1e88e5;
+}
+
+/* table container */
+.table-container {
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+/* table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #42a5f5;
+    color: white;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+/* score input inside table */
+td input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* pass/fail status colors */
+.pass {
+    color: green;
+    font-weight: bold;
+}
+
+.fail {
+    color: red;
+    font-weight: bold;
+}
+
+/* delete button */
+.delete-btn {
+    background-color: #ef5350;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.delete-btn:hover {
+    background-color: #c62828;
+}
+
+/* no students message */
+.no-students {
+    text-align: center;
+    padding: 20px;
+    color: #999;
+}
